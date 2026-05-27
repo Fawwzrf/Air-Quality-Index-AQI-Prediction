@@ -1,4 +1,4 @@
-# 🌍 Air Quality Index (AQI) Prediction in Indian Cities
+# Air Quality Index (AQI) Prediction in Indian Cities
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange)
@@ -8,11 +8,7 @@ Proyek Air Quality Index (AQI) Prediction adalah model *machine learning* untuk 
 
 ---
 
-### 👨‍💻 Identitas
-* **Nama/NIM:** Fawwaz Aufa Al Ghautsa Rafi / H1D023097
-* **Institusi:** Informatika Universitas Jenderal Soedirman (Unsoed)
-
-### 🚀 Metodologi (Gimana Cara Kerjanya?)
+### Metodologi
 Kita menggunakan pendekatan Data Science dan Machine Learning yang terstruktur buat ngerjain proyek ini:
 
 1. **Eksplorasi Data (EDA)**
@@ -30,15 +26,15 @@ Kita menggunakan pendekatan Data Science dan Machine Learning yang terstruktur b
    * Bikin model *baseline* pakai **Linear Regression** buat patokan awal (dapat $R^2 \approx 0.73$).
    * Mengembangkan dan men-*tune* **Random Forest Regressor** buat nangkap hubungan yang lebih kompleks dan non-linear di dalam data lingkungan.
 
-### 📊 Hasil & Insight
+### Hasil & Insight
 * **Performa Kece:** Model Random Forest berhasil tembus **$R^2$ Score 0.91** dengan **Mean Absolute Error (MAE) di angka 20.87**, jauh ngalahin model *baseline* regresi linear!
 * **Fitur Paling Ngaruh:** `PM2.5` dan `CO` (Karbon Monoksida) teridentifikasi sebagai dalang utama yang paling bikin nilai AQI naik-turun.
 * **Insight Kebijakan:** Kebijakan tata kota dan kontrol emisi harus memprioritaskan pengurangan partikel PM2.5 dan CO secara ketat kalau mau kesehatan masyarakat cepat membaik.
 
-### 📂 Struktur Repositori
+### Struktur Repositori
 * `AQI_Prediction_Analysis.ipynb`: File utama Jupyter Notebook yang isinya *end-to-end code*, mulai dari tarik data, EDA, sampai *training* dan evaluasi model.
 
-### 🚀 Cara Menjalankan (*How to Run*)
+### Cara Menjalankan (*How to Run*)
 1. *Clone* repositori ini ke lokal kamu:
    ```bash
    git clone [https://github.com/Fawwzrf/India-Air-Quality-Prediction.git](https://github.com/Fawwzrf/India-Air-Quality-Prediction.git)
