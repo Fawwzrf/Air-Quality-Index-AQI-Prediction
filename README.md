@@ -28,7 +28,7 @@ Kita menggunakan pendekatan Data Science dan Machine Learning yang terstruktur b
 
 ### Hasil & Insight
 * **Performa Kece:** Model Random Forest berhasil tembus **$R^2$ Score 0.91** dengan **Mean Absolute Error (MAE) di angka 20.87**, jauh ngalahin model *baseline* regresi linear!
-* **Fitur Paling Ngaruh:** `PM2.5` dan `CO` (Karbon Monoksida) teridentifikasi sebagai dalang utama yang paling bikin nilai AQI naik-turun.
+* **Fitur Berpengaruh:** `PM2.5` dan `CO` (Karbon Monoksida) teridentifikasi sebagai dalang utama yang paling bikin nilai AQI naik-turun.
 * **Insight Kebijakan:** Kebijakan tata kota dan kontrol emisi harus memprioritaskan pengurangan partikel PM2.5 dan CO secara ketat kalau mau kesehatan masyarakat cepat membaik.
 
 ### Struktur Repositori
